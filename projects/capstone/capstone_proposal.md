@@ -14,7 +14,8 @@ In this section, provide brief details on the background information of the doma
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-In this section, clearly describe the problem that is to be solved. The problem described should be well defined and should have at least one relevant potential solution. Additionally, describe the problem thoroughly such that it is clear that the problem is quantifiable (the problem can be expressed in mathematical or logical terms) , measurable (the problem can be measured by some metric and clearly observed), and replicable (the problem can be reproduced and occurs more than once).
+As markets have become increasingly saturated, companies have attempted to identify ways in which to improve customer loyalty, satisfaction, and retention. This approach is supported by modern database technologies (Google Firebase), which enable to obtain the knowledge of who the customers are, what customers usage application, what they have purchased, when they purchased it, and predictions on behavior. Predicting when user will leave a dtac app creates a unique opportunity to increase active user and revenue contribution(lifetime value). This project focuses on predicting app churn for all user.  The traditional solution is to predict high-propensity churners and address their needs via a concierge service, marketing campaigns, or by applying special dispensations. Churn prediction, or the task of identifying customers who are likely to discontinue use of a mobile app service, is an important and concern of the Telecom industry.
+The aim of this project is to study and analyze customer churn prediction based on mobile app usage logs and user behavior with the help of Google BigQuery.
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
