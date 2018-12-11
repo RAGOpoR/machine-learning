@@ -52,19 +52,7 @@ The aim of this project is to study and analyze customer churn prediction based 
 | device. advertising_id                      | STRING  | NULLABLE |
 | device. language                            | STRING  | NULLABLE |
 | device. is_limited_ad_tracking              | STRING  | NULLABLE |
-| device. time_zone_offset_seconds            | INTEGER | NULLABLE |
-| device. browser                             | STRING  | NULLABLE |
-| device. browser_version                     | STRING  | NULLABLE |
-| device. web_info                            | RECORD  | NULLABLE |
-| device.web_info. browser                    | STRING  | NULLABLE |
-| device.web_info. browser_version            | STRING  | NULLABLE |
-| device.web_info. hostname                   | STRING  | NULLABLE |
-| app_info                                    | RECORD  | NULLABLE |
-| app_info. id                                | STRING  | NULLABLE |
 | app_info. version                           | STRING  | NULLABLE |
-| app_info. install_store                     | STRING  | NULLABLE |
-| app_info. firebase_app_id                   | STRING  | NULLABLE |
-| app_info. install_source                    | STRING  | NULLABLE |
 | platform                                    | STRING  | NULLABLE |
 
 
