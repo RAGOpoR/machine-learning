@@ -15,6 +15,79 @@ As markets have become increasingly saturated, companies have attempted to ident
 The aim of this project is to study and analyze customer churn prediction based on mobile app usage logs and user behavior with the help of Google BigQuery.
 
 ### Datasets and Inputs
+
+| Field name                                  | Type    | Mode     |
+|---------------------------------------------|---------|----------|
+| event_date                                  | STRING  | NULLABLE |
+| event_timestamp                             | INTEGER | NULLABLE |
+| event_name                                  | STRING  | NULLABLE |
+| event_params                                | RECORD  | REPEATED |
+| event_params. key                           | STRING  | NULLABLE |
+| event_params. value                         | RECORD  | NULLABLE |
+| event_params.value. string_value            | STRING  | NULLABLE |
+| event_params.value. int_value               | INTEGER | NULLABLE |
+| event_params.value. float_value             | FLOAT   | NULLABLE |
+| event_params.value. double_value            | FLOAT   | NULLABLE |
+| event_previous_timestamp                    | INTEGER | NULLABLE |
+| event_value_in_usd                          | FLOAT   | NULLABLE |
+| event_bundle_sequence_id                    | INTEGER | NULLABLE |
+| event_server_timestamp_offset               | INTEGER | NULLABLE |
+| user_id                                     | STRING  | NULLABLE |
+| user_pseudo_id                              | STRING  | NULLABLE |
+| user_properties                             | RECORD  | REPEATED |
+| user_properties. key                        | STRING  | NULLABLE |
+| user_properties. value                      | RECORD  | NULLABLE |
+| user_properties.value. string_value         | STRING  | NULLABLE |
+| user_properties.value. int_value            | INTEGER | NULLABLE |
+| user_properties.value. float_value          | FLOAT   | NULLABLE |
+| user_properties.value. double_value         | FLOAT   | NULLABLE |
+| user_properties.value. set_timestamp_micros | INTEGER | NULLABLE |
+| user_first_touch_timestamp                  | INTEGER | NULLABLE |
+| user_ltv                                    | RECORD  | NULLABLE |
+| user_ltv. revenue                           | FLOAT   | NULLABLE |
+| user_ltv. currency                          | STRING  | NULLABLE |
+| device                                      | RECORD  | NULLABLE |
+| device. category                            | STRING  | NULLABLE |
+| device. mobile_brand_name                   | STRING  | NULLABLE |
+| device. mobile_model_name                   | STRING  | NULLABLE |
+| device. mobile_marketing_name               | STRING  | NULLABLE |
+| device. mobile_os_hardware_model            | STRING  | NULLABLE |
+| device. operating_system                    | STRING  | NULLABLE |
+| device. operating_system_version            | STRING  | NULLABLE |
+| device. vendor_id                           | STRING  | NULLABLE |
+| device. advertising_id                      | STRING  | NULLABLE |
+| device. language                            | STRING  | NULLABLE |
+| device. is_limited_ad_tracking              | STRING  | NULLABLE |
+| device. time_zone_offset_seconds            | INTEGER | NULLABLE |
+| device. browser                             | STRING  | NULLABLE |
+| device. browser_version                     | STRING  | NULLABLE |
+| device. web_info                            | RECORD  | NULLABLE |
+| device.web_info. browser                    | STRING  | NULLABLE |
+| device.web_info. browser_version            | STRING  | NULLABLE |
+| device.web_info. hostname                   | STRING  | NULLABLE |
+| geo                                         | RECORD  | NULLABLE |
+| geo. continent                              | STRING  | NULLABLE |
+| geo. country                                | STRING  | NULLABLE |
+| geo. region                                 | STRING  | NULLABLE |
+| geo. city                                   | STRING  | NULLABLE |
+| geo. sub_continent                          | STRING  | NULLABLE |
+| geo. metro                                  | STRING  | NULLABLE |
+| app_info                                    | RECORD  | NULLABLE |
+| app_info. id                                | STRING  | NULLABLE |
+| app_info. version                           | STRING  | NULLABLE |
+| app_info. install_store                     | STRING  | NULLABLE |
+| app_info. firebase_app_id                   | STRING  | NULLABLE |
+| app_info. install_source                    | STRING  | NULLABLE |
+| traffic_source                              | RECORD  | NULLABLE |
+| traffic_source. name                        | STRING  | NULLABLE |
+| traffic_source. medium                      | STRING  | NULLABLE |
+| traffic_source. source                      | STRING  | NULLABLE |
+| stream_id                                   | STRING  | NULLABLE |
+| platform                                    | STRING  | NULLABLE |
+| event_dimensions                            | RECORD  | NULLABLE |
+| event_dimensions. hostname                  | STRING  | NULLABLE |
+
+
 _(approx. 2-3 paragraphs)_
 
 In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
