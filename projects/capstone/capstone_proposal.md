@@ -9,6 +9,7 @@ October 29th, 2018
 
 Dtac application is one of Thailand’s large and fastest-growing mobile self-service channel for telecomunication in Thailand, connecting over 21 million users. dtac application is a self-service application which dtac prepaid and postpaid subscribers can use e-Services to check their call, value-added service (VAS) charges and VAS packages. In addition, the subscribers can also check rate, promotion, actual usage and how to make an International Call and use dtac International Roaming services 
 
+As markets have become increasingly saturated, companies have attempted to identify ways in which to improve customer loyalty, satisfaction, and retention. This approach is supported by modern database technologies (Google Firebase), which enable to obtain the knowledge of who the customers are, what customers usage application, what they have purchased, when they purchased it, and predictions on behavior. Predicting when user will leave a dtac app creates a unique opportunity to increase active user and revenue contribution(lifetime value). This project focuses on predicting app churn for all user.
 In order to effectively manage customer churn, it is important to build a more effective and accurate customer churn prediction model. In literature, statistical and data mining techniques have been used to create the prediction models.
 
 
