@@ -19,7 +19,6 @@ The aim of this project is to study and analyze customer churn prediction based 
 | Field name                                  | Type    | Mode     |
 |---------------------------------------------|---------|----------|
 | event_date                                  | STRING  | NULLABLE |
-| event_timestamp                             | INTEGER | NULLABLE |
 | event_name                                  | STRING  | NULLABLE |
 | event_params                                | RECORD  | REPEATED |
 | event_params. key                           | STRING  | NULLABLE |
@@ -28,11 +27,6 @@ The aim of this project is to study and analyze customer churn prediction based 
 | event_params.value. int_value               | INTEGER | NULLABLE |
 | event_params.value. float_value             | FLOAT   | NULLABLE |
 | event_params.value. double_value            | FLOAT   | NULLABLE |
-| event_previous_timestamp                    | INTEGER | NULLABLE |
-| event_value_in_usd                          | FLOAT   | NULLABLE |
-| event_bundle_sequence_id                    | INTEGER | NULLABLE |
-| event_server_timestamp_offset               | INTEGER | NULLABLE |
-| user_id                                     | STRING  | NULLABLE |
 | user_pseudo_id                              | STRING  | NULLABLE |
 | user_properties                             | RECORD  | REPEATED |
 | user_properties. key                        | STRING  | NULLABLE |
@@ -65,27 +59,13 @@ The aim of this project is to study and analyze customer churn prediction based 
 | device.web_info. browser                    | STRING  | NULLABLE |
 | device.web_info. browser_version            | STRING  | NULLABLE |
 | device.web_info. hostname                   | STRING  | NULLABLE |
-| geo                                         | RECORD  | NULLABLE |
-| geo. continent                              | STRING  | NULLABLE |
-| geo. country                                | STRING  | NULLABLE |
-| geo. region                                 | STRING  | NULLABLE |
-| geo. city                                   | STRING  | NULLABLE |
-| geo. sub_continent                          | STRING  | NULLABLE |
-| geo. metro                                  | STRING  | NULLABLE |
 | app_info                                    | RECORD  | NULLABLE |
 | app_info. id                                | STRING  | NULLABLE |
 | app_info. version                           | STRING  | NULLABLE |
 | app_info. install_store                     | STRING  | NULLABLE |
 | app_info. firebase_app_id                   | STRING  | NULLABLE |
 | app_info. install_source                    | STRING  | NULLABLE |
-| traffic_source                              | RECORD  | NULLABLE |
-| traffic_source. name                        | STRING  | NULLABLE |
-| traffic_source. medium                      | STRING  | NULLABLE |
-| traffic_source. source                      | STRING  | NULLABLE |
-| stream_id                                   | STRING  | NULLABLE |
 | platform                                    | STRING  | NULLABLE |
-| event_dimensions                            | RECORD  | NULLABLE |
-| event_dimensions. hostname                  | STRING  | NULLABLE |
 
 
 _(approx. 2-3 paragraphs)_
