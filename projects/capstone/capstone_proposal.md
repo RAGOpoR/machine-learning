@@ -14,7 +14,6 @@ In order to effectively manage customer churn, it is important to build a more e
 
 
 ### Problem Statement
-_(approx. 1 paragraph)_
 
 As markets have become increasingly saturated, companies have attempted to identify ways in which to improve customer loyalty, satisfaction, and retention. This approach is supported by modern database technologies (Google Firebase), which enable to obtain the knowledge of who the customers are, what customers usage application, what they have purchased, when they purchased it, and predictions on behavior. Predicting when user will leave a dtac app creates a unique opportunity to increase active user and revenue contribution(lifetime value). This project focuses on predicting app churn for all user.  The traditional solution is to predict high-propensity churners and address their needs via a concierge service, marketing campaigns, or by applying special dispensations. Churn prediction, or the task of identifying customers who are likely to discontinue use of a mobile app service, is an important and concern of the Telecom industry.
 The aim of this project is to study and analyze customer churn prediction based on mobile app usage logs and user behavior with the help of Google BigQuery.
