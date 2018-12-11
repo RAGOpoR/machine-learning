@@ -38,20 +38,14 @@ The aim of this project is to study and analyze customer churn prediction based 
 | user_properties.value. set_timestamp_micros | INTEGER | NULLABLE |
 | user_first_touch_timestamp                  | INTEGER | NULLABLE |
 | user_ltv                                    | RECORD  | NULLABLE |
-| user_ltv. revenue                           | FLOAT   | NULLABLE |
-| user_ltv. currency                          | STRING  | NULLABLE |
 | device                                      | RECORD  | NULLABLE |
 | device. category                            | STRING  | NULLABLE |
-| device. mobile_brand_name                   | STRING  | NULLABLE |
-| device. mobile_model_name                   | STRING  | NULLABLE |
-| device. mobile_marketing_name               | STRING  | NULLABLE |
 | device. mobile_os_hardware_model            | STRING  | NULLABLE |
 | device. operating_system                    | STRING  | NULLABLE |
 | device. operating_system_version            | STRING  | NULLABLE |
 | device. vendor_id                           | STRING  | NULLABLE |
 | device. advertising_id                      | STRING  | NULLABLE |
 | device. language                            | STRING  | NULLABLE |
-| device. is_limited_ad_tracking              | STRING  | NULLABLE |
 | app_info. version                           | STRING  | NULLABLE |
 | platform                                    | STRING  | NULLABLE |
 
