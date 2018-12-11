@@ -4,12 +4,13 @@ Siam Wannakosit
 October 29th, 2018
 
 ## Proposal
-_(approx. 2-3 pages)_
 
 ### Domain Background
-_(approx. 1-2 paragraphs)_
 
-In this section, provide brief details on the background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited in this section, including why that research is relevant. Additionally, a discussion of your personal motivation for investigating a particular problem in the domain is encouraged but not required.
+Dtac application is one of Thailand’s large and fastest-growing mobile self-service channel for telecomunication in Thailand, connecting over 21 million users. dtac application is a self-service application which dtac prepaid and postpaid subscribers can use e-Services to check their call, value-added service (VAS) charges and VAS packages. In addition, the subscribers can also check rate, promotion, actual usage and how to make an International Call and use dtac International Roaming services 
+
+In order to effectively manage customer churn, it is important to build a more effective and accurate customer churn prediction model. In literature, statistical and data mining techniques have been used to create the prediction models.
+
 
 ### Problem Statement
 _(approx. 1 paragraph)_
