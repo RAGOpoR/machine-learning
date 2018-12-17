@@ -17,6 +17,7 @@ The aim of this project is to study and analyze customer churn prediction based 
 ### Datasets and Inputs
 
 The datasets are collected and provided by Google Firebase.
+
 Input data fields
 
 | Field name                                  | Type    | Mode     |
