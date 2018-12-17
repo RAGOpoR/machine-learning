@@ -16,41 +16,44 @@ The aim of this project is to study and analyze customer churn prediction based 
 
 ### Datasets and Inputs
 
+The datasets are collected and provided by Google Firebase.
+Input data fields
+
 | Field name                                  | Type    | Mode     |
 |---------------------------------------------|---------|----------|
 | event_date                                  | STRING  | NULLABLE |
 | event_name                                  | STRING  | NULLABLE |
 | event_params                                | RECORD  | REPEATED |
-| event_params. key                           | STRING  | NULLABLE |
-| event_params. value                         | RECORD  | NULLABLE |
-| event_params.value. string_value            | STRING  | NULLABLE |
-| event_params.value. int_value               | INTEGER | NULLABLE |
-| event_params.value. float_value             | FLOAT   | NULLABLE |
-| event_params.value. double_value            | FLOAT   | NULLABLE |
+| event_params.key                            | STRING  | NULLABLE |
+| event_params.value                          | RECORD  | NULLABLE |
+| event_params.value.string_value             | STRING  | NULLABLE |
+| event_params.value.int_value                | INTEGER | NULLABLE |
+| event_params.value.float_value              | FLOAT   | NULLABLE |
+| event_params.value.double_value             | FLOAT   | NULLABLE |
 | user_pseudo_id                              | STRING  | NULLABLE |
 | user_properties                             | RECORD  | REPEATED |
-| user_properties. key                        | STRING  | NULLABLE |
-| user_properties. value                      | RECORD  | NULLABLE |
-| user_properties.value. string_value         | STRING  | NULLABLE |
-| user_properties.value. int_value            | INTEGER | NULLABLE |
-| user_properties.value. float_value          | FLOAT   | NULLABLE |
-| user_properties.value. double_value         | FLOAT   | NULLABLE |
-| user_properties.value. set_timestamp_micros | INTEGER | NULLABLE |
+| user_properties.key                         | STRING  | NULLABLE |
+| user_properties.value                       | RECORD  | NULLABLE |
+| user_properties.value.string_value          | STRING  | NULLABLE |
+| user_properties.value.int_value             | INTEGER | NULLABLE |
+| user_properties.value.float_value           | FLOAT   | NULLABLE |
+| user_properties.value.double_value          | FLOAT   | NULLABLE |
+| user_properties.value.set_timestamp_micros  | INTEGER | NULLABLE |
 | user_first_touch_timestamp                  | INTEGER | NULLABLE |
 | user_ltv                                    | RECORD  | NULLABLE |
 | device                                      | RECORD  | NULLABLE |
-| device. category                            | STRING  | NULLABLE |
-| device. mobile_os_hardware_model            | STRING  | NULLABLE |
-| device. operating_system                    | STRING  | NULLABLE |
-| device. operating_system_version            | STRING  | NULLABLE |
-| device. vendor_id                           | STRING  | NULLABLE |
-| device. advertising_id                      | STRING  | NULLABLE |
-| device. language                            | STRING  | NULLABLE |
-| app_info. version                           | STRING  | NULLABLE |
+| device.category                             | STRING  | NULLABLE |
+| device.mobile_os_hardware_model             | STRING  | NULLABLE |
+| device.operating_system                     | STRING  | NULLABLE |
+| device.operating_system_version             | STRING  | NULLABLE |
+| device.vendor_id                            | STRING  | NULLABLE |
+| device.advertising_id                       | STRING  | NULLABLE |
+| device.language                             | STRING  | NULLABLE |
+| app_info.version                            | STRING  | NULLABLE |
 | platform                                    | STRING  | NULLABLE |
 
 
-_(approx. 2-3 paragraphs)_
+
 
 In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
 
