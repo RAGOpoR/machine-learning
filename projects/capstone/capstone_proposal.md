@@ -16,6 +16,8 @@ The aim of this project is to study and analyze customer churn prediction based 
 
 ### Datasets and Inputs
 
+This datasets are collected as transaction log most of the data field are automatically collect by Firebase SDK, In this project focusing on event_name which is represent by user behavior eg. login, reward redeem, screenview, topup, subscription package and payment.
+
 The datasets are collected and provided by Google Firebase.
 
 Input data fields
